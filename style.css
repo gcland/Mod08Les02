@@ -1,0 +1,144 @@
+header {
+    margin: 10px;
+    padding: 10px;
+    border: 5px;
+    border-radius: 10px;
+    background-color:aqua;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:azure;
+}
+
+h2 {
+    margin: 10px;
+    padding: 10px;
+    border: 5px;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+ol {
+    line-height: 2.0;
+}
+
+a {
+    text-decoration: none;
+    color:blue;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .35s;
+}
+
+a:hover {
+    background-color:lightsalmon;
+    box-shadow: 0 5px #adabab;
+    color: azure;
+}
+
+a:active {
+    background-color:coral;
+    box-shadow: 0 5px #adabab;
+    transform: translateY(3px);
+}
+
+img {
+    
+    border-radius: 10px;
+    max-width: 50%;
+    height: auto;
+    float: right;
+    width: 25%;
+    padding: 3px;
+
+}
+* {
+    box-sizing: border-box;
+}
+img:hover {
+    border: 1.5px solid black;
+    box-shadow: 0 2px 4px 0 gray;
+    
+}
+
+button, input[type=submit]{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin-left: 10px;
+    margin: 10px;
+    background-color:honeydew;
+    border-radius: 10px;
+    width: 98%;
+    text-align: center;
+    transition: .35s;
+}
+
+button:hover, input[type=submit]:hover{
+    background-color:lightsalmon;
+    box-shadow: 0 5px #adabab;
+    color: azure;
+}
+
+button:active, input[type=submit]:active{
+    background-color:coral;
+    box-shadow: 0 7px #adabab;
+    transform: translateY(3px);
+}
+
+input[type=text] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+input[type=text]:focus {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+}
+textarea {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+    transition: .35s;
+    background-color:lightsalmon;
+    box-shadow: 0 5px #adabab;
+    color: azure;
+    margin-left: 10px;
+
+}
+
+textarea:hover {
+    box-shadow: 0 5px #adabab;
+    background-color: honeydew;
+    color: black;
+}
+
+.slider {
+    width: 50%;
+    background-color: black;
+    opacity: .6;
+    transition: .35s;
+    margin-left: 10px;
+}
+
+.slider:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.slider:active {
+    cursor: pointer;
+}
+
+label {
+    margin-left: 10px;
+    
+}
